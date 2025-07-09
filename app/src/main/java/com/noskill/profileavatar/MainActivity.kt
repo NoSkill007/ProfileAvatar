@@ -91,7 +91,7 @@ fun ProfileCardScreen() {
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Text(
-                    text = "Keneth Benavidez",
+                    text = "No Skill",
                     fontSize = 22.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color(0xFF1F2937)
@@ -118,11 +118,11 @@ fun ProfileCardScreen() {
                         color = Color(0xFF374151)
                     )
                     Spacer(modifier = Modifier.height(12.dp))
-                    ContactRow(icon = Icons.Default.Email, text = "Kenethfigueroa07@gmail.com")
+                    ContactRow(icon = Icons.Default.Email, text = "NoSkill007@gmail.com")
                     Spacer(modifier = Modifier.height(8.dp))
-                    ContactRow(icon = Icons.Default.Phone, text = "+507 6295-8880")
+                    ContactRow(icon = Icons.Default.Phone, text = "+xxx xxxx-xxxx")
                     Spacer(modifier = Modifier.height(8.dp))
-                    ContactRow(icon = Icons.Default.LocationOn, text = "Panamá, Panamá")
+                    ContactRow(icon = Icons.Default.LocationOn, text = "Xxxxxx, Xxxxxx")
                 }
 
                 // --- SECCIÓN DE REDES SOCIALES ---
@@ -139,7 +139,7 @@ fun ProfileCardScreen() {
                     horizontalArrangement = Arrangement.Center,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    SocialIcon(painter = painterResource(id = R.drawable.linkedin), url = "https://www.linkedin.com/in/keneth-benavidez-15983827b/")
+                    SocialIcon(painter = painterResource(id = R.drawable.linkedin), url = "https://github.com/NoSkill007")
                     Spacer(modifier = Modifier.width(20.dp))
                     SocialIcon(painter = painterResource(id = R.drawable.github), url = "https://github.com/NoSkill007")
                     Spacer(modifier = Modifier.width(20.dp))
